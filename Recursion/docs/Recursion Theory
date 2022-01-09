@@ -1,0 +1,29 @@
+- Recursion: A function calling itself is called as Recursive function, the process is called as Recursion.
+- So we are performing the same operation with different inputs.
+- In simple word, we take a bigger input try to solve the given problem by making the input smaller
+each time till it reaches a base condition(a condition to terminate the function call).
+- Recursion reduces a large set of lengthy messy code. It converts into a elegance way of handling,
+reducing the lines of code.
+- Recursion minimizes the use of complex loops and auxilary data structures(Temporary data structure
+we use to help in solving the problem, eg. In an array to give the count of each element, we can use a
+HashTable, keep the elements as key and their occurance as value. Now once all the key and values are stored,
+we can fetch the counts using occurance. And then we don't need the HashTable and hence acts as a
+helper data structure or auxilary data structure, which take a some extra space in a temporary base.
+- It can reduces the time complexity with memorization i.e speed up the program by storing the
+ result of methods/function calls in cached and returning it from the cached.
+- Recursion works well with the recursive data structures such as Tree,Graphs etc.
+- CALL STACK: Push the data then pop it.
+|_________________|
+|_________________|
+|_________________|
+|_________________|
+|_________________|
+
+ Consider an example of plates stacked over one another in the canteen.
+ The plate which is at the top is the first one to be removed, i.e. the plate which has been placed at the bottommost position remains in the stack for the longest period of time.
+ So, it can be simply seen to follow LIFO(Last In First Out)/FILO(First In Last Out) order.
+ References:
+ - https://www.geeksforgeeks.org/recursion/
+ - https://www.youtube.com/watch?v=IJDJ0kBx2LM&t=947s
+- https://ibm-learning.udemy.com/course/java-data-structures-and-algorithms-masterclass/learn/lecture/23133988#overview
+
