@@ -16,7 +16,7 @@ import java.util.Scanner;
  * @author Deepti Swain
  */
 
-public class Day1StringReversal {
+public class StringReversalUsingRecursion {
     //Reverse Logic using recursion:
     public String reverseString(String str) {
         // Base case / Stopping Condition:
@@ -25,16 +25,28 @@ public class Day1StringReversal {
         }
         // recursive case:
         return reverseString(str.substring(1)) + str.charAt(0);
+
     }
 
-    // Driver Code:
+   /** Without recursion:
+    * public String reverseTheString(String value) {
+        String[] arr = value.split("");
+        String reverseWord = "";
+        for (int i = arr.length - 1; i >= 0; i--) {
+            reverseWord += arr[i];
+        }
+        return reverseWord;
+    }**/
+
+        // Driver Code:
     public static void main(String[] args) {
         // Taking user input:
         Scanner scan = new Scanner(System.in);
         System.out.println("Provide the String for Reverse: ");
         String inputStr = scan.next();
         // calling reverseString method:
-        Day1StringReversal dsr = new Day1StringReversal();
+        StringReversalUsingRecursion dsr = new StringReversalUsingRecursion();
         System.out.println(dsr.reverseString(inputStr));
+       // System.out.println(dsr.reverseTheString(inputStr));
     }
 }

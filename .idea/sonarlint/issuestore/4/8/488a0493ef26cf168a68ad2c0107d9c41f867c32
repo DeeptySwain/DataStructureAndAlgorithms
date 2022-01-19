@@ -1,0 +1,10 @@
+
+W	java:S125("<This block of commented-out lines of code should be removed.(»ó88òíğ¿ä/
+Z	java:S106)"9Replace this use of System.out or System.err by a logger.(àïÓóıÿÿÿÿ8ÄØñ¿ä/
+m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(à‰¯œ8‰«á¿ä/
+Q
+java:S1128"/Remove this unused import 'java.sql.SQLOutput'.(ê¤òÃùÿÿÿÿ8¹‹í¿ä/
+0
+java:S1220""Move this file to a named package.
+U	java:S106'"9Replace this use of System.out or System.err by a logger.(¹‹ª—8¹‹í¿ä/
+m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(à‰¯œ8¨Ñà¿ä/

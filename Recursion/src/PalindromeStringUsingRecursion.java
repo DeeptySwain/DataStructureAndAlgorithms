@@ -14,7 +14,7 @@ import java.util.Scanner;
  *
  * @author Deepti Swain
  */
-public class PalindromeString {
+public class PalindromeStringUsingRecursion {
     // Function to check the string is Palindrome or not.
     public boolean isPalindrome(String str) {
         // Base condition / stopping condition:
@@ -23,7 +23,7 @@ public class PalindromeString {
         }
         // recursive case:
         if (str.charAt(0) == str.charAt(str.length() - 1)) { //k = k, a= a
-            return isPalindrome(str.substring(1, str.length() - 1)); //a=a so on
+            return isPalindrome(str.substring(1, str.length() - 1)); //a=a so on // string immutable, hence even after substring, str.length() is same as previous
         }
         return false;
     }
@@ -35,7 +35,7 @@ public class PalindromeString {
         System.out.println("Provide the String To Check Palindrome Or Not: ");
         String inputStr = scan.next();
         // calling PalindromeString method:
-        PalindromeString palDrmStr = new PalindromeString();
+        PalindromeStringUsingRecursion palDrmStr = new PalindromeStringUsingRecursion();
         System.out.println(palDrmStr.isPalindrome(inputStr));
     }
 }
