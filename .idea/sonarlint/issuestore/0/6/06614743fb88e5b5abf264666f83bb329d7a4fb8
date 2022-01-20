@@ -1,0 +1,12 @@
+
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(¨šÑÊşÿÿÿÿ8Êì–‘æ/
+T
+java:S1854 "7Remove this useless assignment to local variable "arr".(Ïø¤Ù8™ñÌ‘æ/
+a
+java:S2095"EUse try-with-resources or close this "Scanner" in a "finally" clause.(˜›Ü8Êì–‘æ/
+Z	java:S106!"9Replace this use of System.out or System.err by a logger.(ÒÔø£ıÿÿÿÿ8¾Ö›‘æ/
+J	java:S108"")Either remove or fill this block of code.(Ù®Öôÿÿÿÿÿ8ãŞÇ‘æ/
+0
+java:S1220""Move this file to a named package.
+E
+java:S1481 "(Remove this unused "arr" local variable.(Ïø¤Ù8™ñÌ‘æ/

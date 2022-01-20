@@ -1,0 +1,18 @@
+ArrayList:
+AL Class is implemeneted List Interface.
+Internally the backend data structure uses is Array.
+The main diff between Array and Array List is, AL is dynamic in nature/size, where as Array is fixed in size.
+AL always grows dynamically and ensures that there is always a space to add elements.
+ArrayList Declaration:
+public class ArrayList<E> extends AbstractList<E> implements List<E>, RandomAccess, Cloneable
+ArrayList<Object> al = new ArrayList<Object>();
+Here it first creates an empty array of DEFAULT_CAPACITY 10.
+
+stack: push, pop, peek (top most)
+Queue: offer (true/false)
+add(true/ exception)
+peep(true/null)
+element(true/exception)
+poll(true /  null : for removing the head of the queue)
+remove(true / exception)
+
