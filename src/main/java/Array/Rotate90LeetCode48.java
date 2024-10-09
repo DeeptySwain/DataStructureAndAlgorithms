@@ -6,8 +6,8 @@ public class Rotate90LeetCode48 {
     public static void main(String[] args) {
         int[][] matrix = {{1, 2, 3,4}, {5, 6, 7,8}, {9, 10, 11,12}, {13,14,15,16}};
       //  System.out.println(Arrays.deepToString(rotate90(matrix)));
-      //  System.out.println(Arrays.deepToString(rotateAnArray90(matrix)));
-       System.out.println(Arrays.deepToString(rotateAnArray90TraverseAndReverse(matrix)));
+        System.out.println(Arrays.deepToString(rotateAnArray90(matrix)));
+      System.out.println(Arrays.deepToString(rotateAnArray90TraverseAndReverse(matrix)));
     }
 
     private static int[][] rotate90(int[][] matrix) {
@@ -47,7 +47,7 @@ public class Rotate90LeetCode48 {
         int n = matrix.length;
         int[][] temp = new int[n][n];
         for(int i = 0; i <n ; i++){
-            for(int j = 0; j<n-1; j++){
+            for(int j = 0; j<n; j++){
                 temp[j][(n-1)-i] = matrix[i][j];
             }
         }
@@ -69,7 +69,7 @@ public class Rotate90LeetCode48 {
             matrix[j][i] = temp;
         }
     }
-        System.out.println(Arrays.deepToString(matrix));
+     //   System.out.println(Arrays.deepToString(matrix));
 
         // reverse:
         for(int i=0; i <n; i++) {
