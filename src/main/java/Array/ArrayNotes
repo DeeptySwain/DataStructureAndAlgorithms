@@ -1,0 +1,27 @@
+1.  To findout 2D Array's column length/how many columns are present: arr[0].length;
+2.  For Matrix related/2d array qus, writedown the matrix and then list down the matrix elemenet in terms of index.
+1 2 3
+4 5 6
+7 8 9
+Sum of diagonal:
+for primary diagonal:
+arr[0][0]
+arr[1][1]
+arr[2][2]
+
+if you see the patern is arr[i][i]
+
+For secondary diagonal:
+arr[0][2]
+arr[1][1]
+arr[2][0]
+
+if you see the patern is arr[i][n-1-i]
+
+sum += arr[i][i] + arr[i][n-1-i];
+for middle/intersect element: if length of matrix is even, mid is 0 (as for even case no intersect point comes;
+ if matrix length is odd, mid[n/2][n/2];
+ mid = n%2 ==0?0 : mid[n/2][n/2]
+ 3.
+
+
