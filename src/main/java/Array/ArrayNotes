@@ -22,6 +22,18 @@ sum += arr[i][i] + arr[i][n-1-i];
 for middle/intersect element: if length of matrix is even, mid is 0 (as for even case no intersect point comes;
  if matrix length is odd, mid[n/2][n/2];
  mid = n%2 ==0?0 : mid[n/2][n/2]
- 3.
+
+ 3. For finding first and last best score or cases where you have to find the 1st largest and second largest or 3rd largest etc.
+ first compare each value with firstLarge, then assign the 2nd bigger number to secondLarge and then the bigger number to firstLarge. Again compare with second large.
+ while(i<nums.length){
+             if(nums[i] > fLarge){
+                 sLarge=fLarge;
+                 fLarge=nums[i];
+             }else if(nums[i]>sLarge && nums[i]!=fLarge){
+                 sLarge=nums[i];
+             }
+             i++;
+ 4. For Missing Number cases you can simply use the formula for sum of n natural number, which is n*(n-1)/2.
+ substract total sum of given array elements from this. you will get the missing number.
 
 
