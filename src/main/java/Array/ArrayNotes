@@ -36,4 +36,10 @@ for middle/intersect element: if length of matrix is even, mid is 0 (as for even
  4. For Missing Number cases you can simply use the formula for sum of n natural number, which is n*(n-1)/2.
  substract total sum of given array elements from this. you will get the missing number.
 
-
+ 5. remove duplicate elements in same array:
+ The key idea here is that j always points to the position where the next unique element should be placed. By the end of the method, the first j elements of the array will contain all the unique elements from the original array, in their original order.
+ This algorithm works because the input array is assumed to be sorted. In a sorted array, all occurrences of a number are grouped together, so by comparing each element with the previous one, we can identify all unique elements.
+ The time complexity of this algorithm is O(n), where n is the length of the input array, as it makes a single pass through the array.
+6. For finding the duplicate value:
+you can take another boolean[]
+7. For two sum problem we can use brute force i=0; j=i+1 or hashmap we can use
