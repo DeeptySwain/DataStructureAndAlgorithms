@@ -1,0 +1,14 @@
+- In summary, an array list in Java uses an internal array to store its elements, automatically resizing it as needed.
+The array list provides methods for adding, removing accessing elements while handling the details of array, resizing and element shifting in memory.
+- Array is fixed in size where as ArrayList is not.
+- Music playlist: we can add any number of music to the playlist.
+- Any data type of element can be stored in an ArrayList
+- ArrayList in java is implementation of list interface.
+- In memory ArrayList creates a initial array of default initial capacity of 10 elements to store its element. and initial values are null.
+- From java 8, if without giving the internal capacity we initialize a arraylist using default construtor, its initialize with size of 0.
+- Resize of array: when a arraylist cross its size, when we add more value, The resizing operation usually increases the capacity by a factor of 1.5 or 2, depending on the implementation.
+- Now when you remove the element from the array list, for example, let's say in this case you want to remove five, the elements will be shifted to the left, but the capacity of the array list will
+  remain same. So before we had 15 elements, now we have also 15 elements.But the only but the only thing that is changed place of the elements, but the array capacity remain
+  same. Here we have the 15 elements, last five with the null value.
+- It is important to note that array list does not automatically shrink its internal array when elements are removed.
+The capacitor remains same unless you explicitly call trim to size method to reduce the internal array size to match the actual number of the elements.
