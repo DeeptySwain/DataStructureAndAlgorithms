@@ -12,3 +12,4 @@ The array list provides methods for adding, removing accessing elements while ha
   same. Here we have the 15 elements, last five with the null value.
 - It is important to note that array list does not automatically shrink its internal array when elements are removed.
 The capacitor remains same unless you explicitly call trim to size method to reduce the internal array size to match the actual number of the elements.
+- ArrayList<Integer> arrList = new ArrayList<Integer>();

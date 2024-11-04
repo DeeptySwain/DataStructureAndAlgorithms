@@ -43,6 +43,7 @@ public class SingleElementInASortedArrayLeetCode540 {
             // Case 4: For cases where we have answer on the left (your mid is second duplicate element)
             if (nums[mid] != nums[mid - 1] && mid % 2 == 0 || nums[mid] == nums[mid - 1] && mid % 2 != 0)
                 low = mid + 1;
+
             // Case 4: For cases where we have answer on the right (your mid is first duplicate element)
             if (nums[mid] != nums[mid - 1] && mid % 2 != 0 || nums[mid] == nums[mid - 1] && mid % 2 == 0)
                 high = mid - 1;
