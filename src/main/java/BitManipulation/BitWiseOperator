@@ -1,0 +1,29 @@
+1. What is binary conversion::::
+Divide number with 2 and collect the reminder and add all the reminder.
+
+
+
+1.
+ * XOR ^ operator: even number of 1's =0
+ * Odd number of 1's = 1;
+ * unlike OR operator, for XOR operator only if either of the value is 1/true then  o/p is 1 or true
+ *
+ * xor of same number will be zero:
+ * for example 5 = 101, 5 = 101
+ * 5 ^ 5 = 101 ^ 101 = 000
+ *
+ * 4 ^ 5 = 100 ^ 101 = 001 = 1
+
+ In bit value we calculate from right side.
+2.
+ * Set Bit
+ * A set bit refers to a bit in the binary representation of a number that has a value of 1.
+ 3.
+ * LeftShift Operator: add extra 00s to the right side. shift to left side by n value.
+ * Right Shift Operator: shift to right side by n value means, remove values from right side.
+ for example: int a  = 8; 1000
+ int b = a << 2; Output: 1000 00  = 100000
+ int c = a >> 2; Output: 10 as it removed the 2 element from left so shifted to 2 from right side
+
+
+
