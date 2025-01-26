@@ -11,8 +11,10 @@ public class Main {
         sLL.insertInLinkedList(9, 0);
        System.out.println(sLL.head.next.next.next.value);
         sLL.traverseSinglyLinkedList();
-        sLL.deleteSLL();
+        System.out.println("\n");
+        sLL.deleteFromSLL(2);
         sLL.traverseSinglyLinkedList();
-
+        System.out.println("\n");
+        System.out.println(sLL.searchAValue(7));
     }
 }
